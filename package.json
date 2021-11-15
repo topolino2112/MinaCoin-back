@@ -1,0 +1,23 @@
+{
+  "name": "test-migration-proyect",
+  "version": "1.0.0",
+  "description": "prueba migration en sequelize",
+  "main": "index.js",
+  "scripts": {
+    "mina_dev": "nodemon app/server.js"
+  },
+  "author": "Facundo Aumada",
+  "license": "ISC",
+  "devDependencies": {
+    "sequelize-cli": "^6.3.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3-rc.0",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.9.0"
+  }
+}
